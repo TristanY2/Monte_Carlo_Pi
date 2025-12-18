@@ -1,0 +1,11 @@
+[package]
+name = "monte_carlo"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "montecarlo"
+crate-type = ["cdylib"]
+
+[dependencies]
+rand = "0.8.5"
